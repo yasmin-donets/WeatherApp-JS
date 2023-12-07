@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5bc887da36.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!--Container Starts -->
+        <div class="weather-card">
+          <!--Weather Card Starts -->
+          <div class="search-field">
+            <!--Search field Starts-->
+            <input
+              type="text"
+              class="search-bar"
+              placeholder="Search weather..."
+            />
+            <div class="btn-search">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+
+          <!--Search field ENDS-->
+          <div class="weather loading">
+            <!--Weather Starts -->
+            <h2 class="city">Weather in Kiev</h2>
+            <h1 class="temp">25.02°C</h1>
+            <div class="flex">
+              <img
+                src="https://openweathermap.org/img/wn/04n.png"
+                alt=""
+                class="icon"
+              />
+              <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 91%</div>
+            <div class="wind">Wind speed: 63.05 km/h</div>
+          </div>
+          <!--Weather ENDS -->
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href=""
+          >
+            <i class="fab fa-github"></i
+          ></a>
+        </div>
+        <!--Weather Card Ends -->
+      </div>
+      <!--Container ENDS-->
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
